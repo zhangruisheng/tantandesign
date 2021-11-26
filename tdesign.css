@@ -35,11 +35,15 @@ nav {
     z-index: 999;
     background-color: #fff;
     border-radius: 50px;
+    left: 50%;
+    transform: translate(-50%,0%);
 }
 nav ul{
     font-weight: 600;
-    width: 100%;
-  
+    width: auto;
+    height: 100%;
+   
+  margin-right: 40px;
 }
 nav li{
     position: relative;
@@ -48,6 +52,7 @@ nav li{
     margin: 20px;
     text-transform: none;
     list-style-type:none;
+
 }
 .header {
     position: relative;
