@@ -139,7 +139,7 @@ h2 {
 }
 
 h1.intro__title {
-    letter-spacing: -3px
+    letter-spacing: 0px
 }
 
 .intro__title span {
@@ -178,7 +178,7 @@ h1.intro__title {
     width: 100%;
     height: 100%;
     content: "";
-    background-image: url(_nuxt/img/gradient.4cda20b.png);
+    background-image: url(./_nuxt/img/gradient.4cda20b.png);
     background-size: cover
 }
 
@@ -202,7 +202,8 @@ h1.intro__title {
     max-width: 67rem;
     margin: 0 auto;
     padding: 0 1rem;
-    width: 100%
+    width: 100%;
+    z-index: 100;
     
 }
 
@@ -289,10 +290,13 @@ h1.intro__title {
 }
 
 .intro__logo {
-    width: 100%;
+    position: relative;
+    width: 50%;
     max-width: 70rem;
     margin: 0 auto;
-    padding: 0 1rem 2rem
+    /* padding: 0 1rem 2rem 0; */
+    left: 10%;
+    z-index: 99;
 }
 
 .statement-basic {
