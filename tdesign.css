@@ -103,7 +103,7 @@ nav li {
     width: 100%;
     height: 800px;
     content: "";
-    background-image: url(./_nuxt/img/gradient.4cda20b.png);
+    background-image: url(images/gradient.png);
     background-size: cover;
 
 }
