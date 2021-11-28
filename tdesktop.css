@@ -1,0 +1,197 @@
+/*桌面端*/
+@media screen and (min-width: 900px) {
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        background-color: black;
+    }
+
+    h1 {
+        font-size: 60px;
+        font-weight: 300;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-weight: 300;
+    }
+
+    h5 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    h6 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    logo {
+        position: fixed;
+        z-index: 99;
+        width: 60px;
+        left: 10%;
+        top: 38px;
+    }
+    .menu,.menu-o,.menu-x, .menu-x-o{
+        display: none;
+    }
+   
+    .nav-open{
+        display:block;
+        position: fixed;
+        color: #000;
+        width: auto;
+        height: 80px;
+        top: 20px;
+        z-index: 999;
+        background-color: #fff;
+        border-radius: 50px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .nav-open ul {
+        font-weight: 600;
+        width: auto;
+        height: 100%;
+
+        margin-right: 40px;
+    }
+
+    .nav-open li {
+        position: relative;
+        float: left;
+        width: auto;
+        margin: 15px 20px;
+        text-transform: none;
+        list-style-type: none;
+
+    }
+    .nav {
+        display:block;
+        position: fixed;
+        color: #000;
+        width: auto;
+        height: 80px;
+        top: 20px;
+        z-index: 999;
+        background-color: #fff;
+        border-radius: 50px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .nav ul {
+        font-weight: 600;
+        width: auto;
+        height: 100%;
+
+        margin-right: 40px;
+    }
+
+    .nav li {
+        position: relative;
+        float: left;
+        width: auto;
+        margin: 15px 20px;
+        text-transform: none;
+        list-style-type: none;
+
+    }
+
+    .nnn {
+        position: absolute;
+
+        right: -20px;
+        float: right;
+        top: -10px;
+        z-index: 999;
+        width: 30px;
+        text-align: center;
+        color: #fff;
+        background-color: rgb(255, 80, 80);
+        border-radius: 50px;
+    }
+
+    .header {
+        position: relative;
+        z-index: 0;
+        display: grid;
+        overflow: hidden;
+        grid-row-gap: 1rem;
+        align-content: end;
+        /* max-width: var(--viewportWidth); */
+        min-height: 50vh;
+        /* min-height: -webkit-fill-available; */
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 900px;
+    }
+
+    .header:before {
+        position: absolute;
+        z-index: 8;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 800px;
+        content: "";
+        background-image: url(./images/gradient.png);
+        background-size: cover;
+
+    }
+
+    .t_logo {
+        position: absolute;
+        z-index: 9;
+        top: 50%;
+        left: 50%;
+        width: 600px;
+        margin: -300px;
+    }
+
+    .t_container {
+        position: relative;
+        top: -200px;
+        z-index: 10;
+
+
+    }
+
+    .t_title {
+        position: relative;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .t_title_2 {
+        position: relative;
+        text-align: center;
+        margin-top: -40px;
+    }
+
+    .basic {
+        position: relative;
+        float: left;
+        background-color: black;
+        height: 400px;
+        width: 70%;
+        left: 15%;
+    }
+
+    .basic_inner {
+        color: #fff;
+    }
+
+    .more {
+        position: absolute;
+        width: 100px;
+        right: 0;
+        bottom: 0;
+    }
+
+
+}
