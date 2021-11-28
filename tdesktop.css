@@ -178,12 +178,17 @@
         float: left;
         background-color: black;
         height: 400px;
-        width: 70%;
-        left: 15%;
+        width: 100%;
     }
 
     .basic_inner {
         color: #fff;
+        position: relative;
+        float: left;
+        height: 400px;
+        width: 80%;
+        left: 10%;
+
     }
 
     .more {
@@ -192,6 +197,25 @@
         right: 0;
         bottom: 0;
     }
-
+    .symbols-bar__inner {
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 1rem;
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+        /* display: grid;
+        grid-auto-flow: column;
+        grid-gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 45rem;
+        margin: 0 auto */
+    }
+    .symbols-bar svg {
+        width: 100%;
+        max-width: 3rem
+    }
+    
 
 }
