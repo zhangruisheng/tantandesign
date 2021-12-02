@@ -7,7 +7,7 @@
         top: 0;
         background-color: black;
     }
-
+  
     h1 {
         font-size: 60px;
         font-weight: 300;
@@ -27,7 +27,14 @@
         font-size: 14px;
         font-weight: 300;
     }
-
+    a{
+        color: #000;
+        text-decoration: none;
+    }
+    .active{
+        color: #000;
+        text-decoration:underline;
+    }
     logo {
         position: fixed;
         z-index: 99;
@@ -180,6 +187,13 @@
         height: 400px;
         width: 100%;
     }
+    .basic-w {
+        position: relative;
+        float: left;
+        background-color: #FFF7F1;
+        height: 600px;
+        width: 100%;
+    }
 
     .basic_inner {
         color: #fff;
@@ -217,5 +231,9 @@
         max-width: 3rem
     }
     
-
+    .project-h{
+        position: relative;
+        margin-top: 200px;
+        text-align: center;
+    }
 }
