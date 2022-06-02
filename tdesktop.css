@@ -144,12 +144,12 @@
         grid-row-gap: 1rem;
         align-content: end;
         /* max-width: var(--viewportWidth); */
-        min-height: 50vh;
+        min-height: 100vh;
         /* min-height: -webkit-fill-available; */
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 900px;
+        height: 100%;
     }
 
     .header:before {
@@ -158,7 +158,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 800px;
+        height: 100%;
         content: "";
         background-image: url(./images/gradient.png);
         background-size: cover;
